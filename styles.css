@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 4vh 0 0vh 0;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 3vh 0 0vh 0;
+}
+
+button {
+  margin: 5vh 0 0 0;
+  width: 20vw;
+  height: 10vh;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-radius: 2rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.dice-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5vw;
+
+  width: 60vw;
+  height: 50vh;
+  margin: 5vh 0 0 0;
+}
+
+.dice-1 {
+  background-image: url(Dices/1.svg);
+  background-repeat: no-repeat;
+  width: 50vh;
+}
+
+.dice-2 {
+  background-image: url(Dices/2.svg);
+  background-repeat: no-repeat;
+  width: 50vh;
+}
+
+.dice-3 {
+  background-image: url(Dices/3.svg);
+  background-repeat: no-repeat;
+  width: 50vh;
+}
+
+.dice-4 {
+  background-image: url(Dices/4.svg);
+  background-repeat: no-repeat;
+  width: 50vh;
+}
+
+.dice-5 {
+  background-image: url(Dices/5.svg);
+  background-repeat: no-repeat;
+  width: 50vh;
+}
+
+.dice-6 {
+  background-image: url(Dices/6.svg);
+  background-repeat: no-repeat;
+  width: 50vh;
+}
